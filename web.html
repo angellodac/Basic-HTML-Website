@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .navegacion a{
+        height: 100%;
+        position: relative;
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+    .main1{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%;
+        padding-bottom: 20%;
+        padding-top: 17%;
+    }
+    .texto1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 50%;
+    }
+    .texto1 h1{
+        font-size: 50px;
+    }
+    .texto1 h3{
+        color: rgb(107, 107, 107);
+    }
+    .main2{
+        width: 100%;
+        display: flex;
+    }
+    .seccion1{
+        width: 25%;
+        padding: 40px 0;
+    
+    }
+    .titulo-texto{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    .titulo-texto h1{
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    .titulo-texto h3{
+        padding: 10px;
+        padding-left: 40px;
+        font-size: 23px;
+    }
+    .titulo-texto #ultimo {
+        padding-bottom: 40px;
+
+    }
+    .linea-vertical {
+       border-left: 2px solid #000000;
+       height: 100; 
+    }
+    hr{
+        border: 1px solid #000000;
+    }
+    .seccion2{
+
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .work{
+        padding: 20px;
+        padding-left: 30px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .work a{
+        text-decoration: none;
+    }
+    .work h1{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .work2{
+        padding: 20px;
+        padding-left: 30px;
+        width: 100%;
+        font-size: 20px;
+        gap: 20px;
+        line-height: 50px;
+    }
+    .work2 h1{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .work2 #pp{
+        line-height: 21px;
+    }
+    .work2 a{
+        text-decoration: none;
+    }
+    .seccion3{
+        width: 35%;
+        padding: 40px;
+    }
+    .text-titu{
+        padding: 20px 0;
+        font-size: 20px;
+    }
+    .text-titu2{
+        padding: 20px 0;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .seccion3 h1{
+        font-size: 25px;
+    }
+    .main3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding:50px;
+    }
+    .cuadros{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 2%;
+    }
+    .cuadro{
+        border: 2px solid;
+        border-radius: 50px;
+        font-size: 30px;
+        width: 30%;
+        height: 290px;
+        padding: 2%;
+        padding-bottom: 5%;
+        margin-left: 20px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 10%;
+    }
+
+
+
+
+</style>
+<body>
+
+    <header>
+        <h2>George Angello</h2>
+        <nav class="navegacion">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Articles</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <hr>
+    <main class="main1">
+        <div class="texto1">
+            <h1>Frontend Developer</h1>
+            <h3>html only with proper layout, no styling</h3>
+        </div>
+    </main>
+    <hr>
+    <main class="main2">
+        <section class="seccion1">
+            <div class="titulo-texto">
+                <h1>Projects</h1>
+                <h3>HTML Only Portfolio</h3>
+                <hr>
+                <h3>Calculator</h3>
+                <hr>
+                <h3>Quiz App</h3>
+                <hr>
+                <h3>Countdown Timer</h3>
+                <hr>
+                <h3 id="ultimo">Product Upcoming Page</h3>
+            </div>
+        </section>
+        <div class="linea-vertical"></div>
+        <section class="seccion2">
+
+            <div class="work">
+                <h1>work Experience</h1>
+                <h4>Roadmap.sh</h4>
+                <p>Solved all the frontend projects</p>
+                <h5><a href="#">Visit my profile</a></h5>
+            </div>
+            <hr>
+            <div class="work2">
+                <h1>OpenSource Work</h1>
+                <p id="pp">
+                    Contributed to 50 opensource <br>
+                    projects. Made my own projects with <br>
+                    200 GitHub Stars.
+                </p>
+                <h5><a href="#">Visit my GitHub Profile</a></h5>
+            </div>
+        </section>
+        <div class="linea-vertical"></div>
+        <section class="seccion3">
+            <h1>Education</h1>
+            <div class="text-titu">
+                <p>
+                   Graduated with 3.76 out of 4 <br>
+                   CGPA. Won Acme Hackathon. <br>
+                   Organized 30 sessions.
+                </p>
+            </div>
+            <h1>Courses I took:</h1>
+           <div class="text-titu2">
+                <ul>
+                   <li>Object Oriented Programming</li>
+                   <li>Data Structures and Algorithms</li>
+                   <li>Web Engineering</li>
+                   <li>Artificial Intelligence</li>
+                   <li>Human Computer Interaction</li>
+                   <li>Computer Graphics</li>
+                   <li>Database Management Systems</li>
+                   <li>Distributed Database Systems</li>
+                   <li>Discreet Mathematics</li>
+                </ul>
+           </div>
+        </section>
+    </main>
+    <hr>
+    <main class="main3">
+        <h1>Reviews from my Teachers</h1>
+        <div class="cuadros">
+            <div class="cuadro">
+                <P>
+                    John doe  was a brilliant student; always stood out with this assignments.
+                </P>
+            </div>
+            <div class="cuadro">
+                <p>
+                    John doe  was a brilliant student; always stood out with this assignments.
+                </p>
+            </div>
+            <div class="cuadro">
+                <p>
+                    John doe  was a brilliant student; always stood out with this assignments.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1>© all rights reserved 2025</h1>
+    </footer>
+</body>
+</html>
